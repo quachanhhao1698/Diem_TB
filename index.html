@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>Project 2 - Ứng dụng tính điểm trung bình</title>
+		<link rel="stylesheet" href="./assets/css/style.css">
+		<script src="./assets/js/jquery.js"></script>
+		
+	</head>
+
+	<body>
+
+		<div class="container">
+
+			<form action="" class="pointForm">
+				<h1>Class Marksheet</h1>
+	
+				<label class="nameLabel" for="input-name">Họ và tên </label>			
+				<input class="input-name" type="text" name="input-name" required placeholder="Nhập họ và tên">
+				<br>
+				<br>
+				<label class="nameLabel" for="input-math">Điểm toán </label>			
+				<input class="input-math" type="text" name="input-math" required placeholder="Nhập điểm toán">
+				<br>
+				<br>
+				<label class="nameLabel" for="input-physical">Điểm lý </label>			
+				<input class="input-physical" type="text" name="input-physical" required placeholder="Nhập điểm lý">
+				<br>
+				<br>
+				<label class="nameLabel" for="input-chemistry">Điểm hóa </label>			
+				<input class="input-chemistry" type="text" name="input-chemistry" required placeholder="Nhập điểm hóa">
+				<br>
+				<br>
+				<button type="button" class="btn-add">Nhập điểm</button>
+			</form>
+	
+
+			<div class="table-wrapper">
+				<table id="scoreTable">
+					
+					<thead>
+						<tr>
+							<th id="">STT</th>
+							<th id="">Họ và tên</th>
+							<th id="">Toán</th>
+							<th id="">Lý</th>
+							<th id="">Hóa</th>
+							<th id="">Điểm trung bình</th>
+						</tr>
+					</thead>
+	
+					<tbody>
+	
+					</tbody>
+		
+				</table>
+				
+			</div>
+			<div class="btn">
+				<button type="button" class="btn-DTB">Tính điểm trung bình</button>
+				<button type="button" class="btn-HSG">Xác định học sinh giỏi</button>
+				<button type="button" class="btn-xoa">Xóa HS đã chọn</button>
+			</div>
+
+		</div>
+
+
+
+		<script type="text/javascript" src="./assets/js/main.js"></script>
+		
+	</body>
+</html>
